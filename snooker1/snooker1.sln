@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "snooker1", "snooker1\snooker1.csproj", "{7187DC24-36D3-47BF-BCC8-71E0D1A17D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "snooker1.Tests", "snooker1.Tests\snooker1.Tests.csproj", "{BA44A349-C094-4F19-B742-47CBFD0989DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7187DC24-36D3-47BF-BCC8-71E0D1A17D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7187DC24-36D3-47BF-BCC8-71E0D1A17D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7187DC24-36D3-47BF-BCC8-71E0D1A17D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7187DC24-36D3-47BF-BCC8-71E0D1A17D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA44A349-C094-4F19-B742-47CBFD0989DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA44A349-C094-4F19-B742-47CBFD0989DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA44A349-C094-4F19-B742-47CBFD0989DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA44A349-C094-4F19-B742-47CBFD0989DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
