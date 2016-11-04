@@ -11,9 +11,9 @@ namespace snooker1.Models
 
         public DateTime Date { get; set; }
 
-        public List<Player> Players { get; set; }
+        public virtual ICollection<Player> Players { get; set; }
 
-        public List<Frame> Frames { get; set; }
+        public virtual ICollection<Frame> Frames { get; set; }
 
         public int FramesWon { get; set; }
 

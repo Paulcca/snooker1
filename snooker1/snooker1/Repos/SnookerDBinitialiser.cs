@@ -11,12 +11,13 @@ namespace snooker1.Repos
         protected override void Seed(SnookerContext context)
         {
 
-            Player player1 = new Player()    {  ID = 1, Name = "paul" };  context.Players.Add(player1);
+            Player player1 = new Player()    {  ID = 1, Name = "Paul" };  context.Players.Add(player1);
             Player player2 = new Player() { ID = 1, Name = "Ronnie" }; context.Players.Add(player2);
 
 
-            Frame f1 = new Frame() { Date = DateTime.Parse("04-11-2016"), FrameWon = true, Player = player1 }; context.Frames.Add(f1);
-            Frame f2 = new Frame() { Date = DateTime.Parse("04-11-2016"), FrameWon = true, Player = player2}; context.Frames.Add(f2);
+
+            Frame f1 = new Frame() { FrameWon = true, Player = player1 }; context.Frames.Add(f1);
+            Frame f2 = new Frame() { FrameWon = true, Player = player2}; context.Frames.Add(f2);
 
             List<Frame> f1L = new List<Frame>();
             f1L.Add(f1);
@@ -26,7 +27,7 @@ namespace snooker1.Repos
             pl1.Add(player1);
             pl1.Add(player2);
 
-            Match m1 = new Match() { Date = DateTime.Parse("04-11-2016"), Frames = f1L, Players = pl1, FramesLost = 2, FramesWon = 3 };
+            Match m1 = new Match() { Date = DateTime.Parse("04-11-2016"), Frames = f1L, Players = pl1, FramesLost = 2, FramesWon = 3 , MatchResultWin = true, ID = 1 };
             context.Matches.Add(m1);           
 
 

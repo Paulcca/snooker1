@@ -17,7 +17,10 @@ namespace snooker1.Controllers
         {
             SnookerContext db = new SnookerContext();
 
-            return Json(db.Players.ToList());
+
+
+            return Json(db.Matches.ToList());                      
+          
 
         }
 
