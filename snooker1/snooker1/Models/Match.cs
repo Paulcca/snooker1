@@ -7,7 +7,8 @@ namespace snooker1.Models
 {
     public class Match
     {
-        
+        public int ID { get; set; }
+
         public DateTime Date { get; set; }
 
         public List<Player> Players { get; set; }
@@ -18,24 +19,24 @@ namespace snooker1.Models
 
         public int FramesLost { get; set; }
 
-        private bool win;
+       // private bool win;
 
-        public bool MatchResultWin
-        {
-            get { return win; }
-            set { win =  matchWon( FramesWon); }
-        }
+        public bool MatchResultWin { get; set; }
+        //{
+        //    get { return win; }
+        //    set { win =  matchWon( FramesWon); }
+        //}
 
 
 
-        private bool matchWon (int frames)
-        {
-            if (FramesWon > 2)
-            {
-                return true;
-            }
-            return false;
-        }
+        //private bool matchWon (int frames)
+        //{
+        //    if (FramesWon > 2)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
 
 
 

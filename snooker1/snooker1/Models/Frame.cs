@@ -7,7 +7,7 @@ namespace snooker1.Models
 {
     public class Frame
     {
-
+        public int ID { get; set; }
         public DateTime Date { get; set; }
 
         public Player Player { get; set; }
